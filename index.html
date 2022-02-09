@@ -417,6 +417,14 @@
                         </li>
                     </ul>
                 </div>
+                <form class="footer-form">
+                    <h2 class="footer-form-title">Подпишитесь на рассылку</h2>
+                    <input type="email" id="footer-email" name="footer-email" class="footer-input">
+                    <svg class="input-icon" width="24" height="24">
+                        <use href="./imajes/icons.svg#icon-icon-send"></use>
+                    </svg>
+                    <button type="submit" class="footer-button-submit">Подписаться</button>
+                </form>
             </div>
         </footer>
 
@@ -450,9 +458,15 @@
                     <use href="./imajes/icons.svg#icon-email-black"></use>
                 </svg>
             </div>
-            <div class="form-field">
+            <div class="form-field-textarea">
                 <label for="comments" class="modal-label-text">Комментарий</label>
                 <textarea name="comments" id="comments" class="modal-textarea" placeholder="Введите текст"></textarea>
+            </div>
+            <div class="form-field-checkbox">
+                <input type="checkbox" id="policy" class="modal-input-checkbox">
+                <label for="policy" class="modal-checkbox-text">Соглашаюсь с рассылкой и принимаю </label>
+                    <a href="" class="modal-checkbox-link">Условия договора</a>
+                
             </div>
             <button type="submit" class="modal-button-submit">Отправить</button>
             </form>
